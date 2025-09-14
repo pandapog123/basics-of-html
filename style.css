@@ -1,0 +1,42 @@
+body {
+  background-color: aquamarine;
+}
+
+main {
+  color: red;
+  padding: 2rem;
+}
+
+.big {
+  /* 1rem = regular fontsize (more nuanced but it's not worth explaining for now) */
+  font-size: 2rem;
+}
+
+.small {
+  font-size: 0.5rem;
+}
+
+button {
+  font-family: monospace;
+  font-weight: 900;
+  background: lightpink;
+  /* border: none; */
+  border: 1rem solid darkmagenta;
+  border-radius: 1rem;
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+footer {
+  margin: 2rem;
+  text-align: center;
+}
+
+footer > h2 {
+  text-decoration: underline;
+}
